@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:focusable="true"
+    android:orientation="vertical"
+    tools:context="com.example.android.slagalika.MainActivity">
+
+    <TableLayout
+        android:id="@+id/tabla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/linearLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/prvi1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter"
+                android:src="@drawable/boja" />
+
+            <ImageButton
+                android:id="@+id/prvi2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter"
+                android:src="@drawable/boja" />
+
+            <ImageButton
+                android:id="@+id/prvi3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter"
+                android:src="@drawable/boja" />
+
+            <ImageButton
+                android:id="@+id/prvi4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter"
+                android:src="@drawable/boja" />
+
+            <FrameLayout>
+
+                <TextView
+                    android:id="@+id/rez11"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:clickable="false"
+                    android:scaleType="fitCenter"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+
+                <ImageButton
+                    android:id="@+id/rez1"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:scaleType="fitCenter"
+                    />
+
+            </FrameLayout>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:id="@+id/drugi1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+            <ImageButton
+                android:id="@+id/drugi2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/drugi3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/drugi4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <FrameLayout>
+
+                <TextView
+                    android:id="@+id/rez22"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:clickable="false"
+                    android:scaleType="fitCenter"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+
+                <ImageButton
+                    android:id="@+id/rez2"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:scaleType="fitCenter"
+
+                    />
+
+            </FrameLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/treci1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/treci2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/treci3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/treci4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+            <FrameLayout>
+
+                <TextView
+                    android:id="@+id/rez33"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:clickable="false"
+                    android:scaleType="fitCenter"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+
+                <ImageButton
+                    android:id="@+id/rez3"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:scaleType="fitCenter"
+
+                    />
+
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/cetvrti1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/cetvrti2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/cetvrti3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/cetvrti4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+            <FrameLayout>
+
+                <TextView
+                    android:id="@+id/rez44"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:clickable="false"
+                    android:scaleType="fitCenter"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+
+                <ImageButton
+                    android:id="@+id/rez4"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:scaleType="fitCenter"
+
+                    />
+
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/peti1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/peti2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/peti3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+            <ImageButton
+                android:id="@+id/peti4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <FrameLayout>
+
+                <TextView
+                    android:id="@+id/rez55"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:clickable="false"
+                    android:scaleType="fitCenter"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+
+                <ImageButton
+                    android:id="@+id/rez5"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:scaleType="fitCenter"
+
+                    />
+
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/sesti1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/sesti2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/sesti3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/sesti4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                android:scaleType="fitCenter" />
+
+            <FrameLayout>
+
+                <TextView
+                    android:id="@+id/rez66"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:clickable="false"
+                    android:scaleType="fitCenter"
+                    android:textColor="@android:color/white"
+                    android:textSize="13sp" />
+
+                <ImageButton
+                    android:id="@+id/rez6"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:scaleType="fitCenter"
+                    />
+
+            </FrameLayout>
+        </TableRow>
+
+    </TableLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/skocko"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:scaleType="fitCenter"
+            android:src="@drawable/skocko"/>
+
+        <ImageButton
+            android:id="@+id/kordun"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:scaleType="fitCenter"
+            android:src="@drawable/kordun" />
+
+
+        <ImageButton
+            android:id="@+id/lika"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:scaleType="fitCenter"
+            android:src="@drawable/lika" />
+
+        <ImageButton
+            android:id="@+id/banija"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:scaleType="fitCenter"
+            android:src="@drawable/banija" />
+    </LinearLayout>
+   <!-- <ProgressBar
+        android:id="@+id/progressbar"
+        android:max="15"
+        android:progress="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_alignParentStart="true"
+        />-->
+</RelativeLayout>
