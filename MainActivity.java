@@ -180,7 +180,7 @@ public class MainActivity extends AppCompatActivity {
                 TextView textView = (TextView) findViewById(ID6);
                 generateComb();
 
-                textView.setText("?????????:\n" + brojPogodjenih() + "\n" + "?? ??????:\n" + brojNaMjestu());
+                textView.setText("Погођених:\n" + brojPogodjenih() + "\n" + "На мјесту:\n" + brojNaMjestu());
                 if (brojNaMjestu() == 4 && brojPogodjenih() == 4) {
                     popupWindow1.showAtLocation(relativeLayout, Gravity.CENTER, 0, 0);
                     mp = MediaPlayer.create(MainActivity.this, R.raw.odlicnostevice);
